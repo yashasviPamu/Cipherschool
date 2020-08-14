@@ -7,7 +7,7 @@ function specialReverse(str,s)
         {
             element=element.split("").reverse().join("");
         }
-        console.log(element);
+        //console.log(element);
         joinString+=element+" ";
     }); 
     
