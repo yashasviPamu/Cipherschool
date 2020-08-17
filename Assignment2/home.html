@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+       <h1 style="text-align: center;"><span class="store">Our</span> Store</h1>
+       <button class="button1" onclick="show()">ALL</button>
+       <button class="buttons" onclick="switchDisplay('tile1')">CAKES</button>
+       <button class="buttons" onclick="switchDisplay('tile2')">CUPCAKES</button>
+       <button class="buttons" onclick="switchDisplay('tile3')">SWEETS</button>
+       <button class="buttons" onclick="switchDisplay('tile4')">DOUGHNUTS</button>
+    </div>
+    <div class="search-container" style="margin-left: 40%;margin-right: 30%;margin-top: 10px;">
+        <form action="home.html">
+          <input type="text" id="entries" placeholder="item...." name="search">
+          <button type="submit" onclick="find()" ><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+    <div id="tile1">
+        <div class="cake1">
+            <img src="c1.jpg" style="width: 300px;height: 200px;"/>
+            <p style="padding-left: 10px;"> Chocolate-strawberry &emsp;&emsp;&emsp;&emsp;&emsp; $5</p>
+        </div>
+        <div class="cake2">
+            <img src="c2.jpg" style="width: 300px;height: 200px;"/>
+            <p style="padding-left: 10px;"> Pinapple-strawberry &emsp;&emsp;&emsp;&emsp;&emsp; $5</p>
+        </div>
+        <div class="cake3">
+            <img src="c3.jpg" style="width: 300px;height: 200px;"/>
+            <p style="padding-left: 10px;"> Chocolate-Gems &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; $5</p>
+        </div>
+        <div class="cake4">
+            <img src="c4.jpg" style="width: 300px;height: 200px;"/>
+            <p style="padding-left: 10px;"> Rainbow-frosting &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; $5</p>
+        </div>
+        <div class="cake5">
+            <img src="c5.jpg" style="width: 300px;height: 200px;"/>
+            <p style="padding-left: 10px;"> Purple-Rose-frosting &emsp;&emsp;&emsp;&emsp;&emsp; $5</p>
+        </div>
+        <div class="cake6">
+            <img src="c6.jpg" style="width: 300px;height: 200px;"/>
+            <p style="padding-left: 10px;"> Blue-Lagoon-frosting &emsp;&emsp;&emsp;&emsp;&emsp; $5</p>
+        </div>
+    </div>
+    <div id="tile2">
+        <div class="cupcake1">
+            <img src="cc1.jpg" style="width: 300px;height: 200px;"/>
+            <p style="padding-left: 10px;"> Chocolate-Gems-cupcake &emsp;&emsp;&emsp;&ensp; $5</p>
+        </div>
+        <div class="cupcake2">
+            <img src="cc2.jpg" style="width: 300px;height: 200px;"/>
+            <p style="padding-left: 10px;"> Vanilla-sprinkles-frosting &emsp;&emsp;&emsp;&ensp; $5</p>
+        </div>
+        <div class="cupcake3">
+            <img src="cc3.jpg" style="width: 300px;height: 200px;"/>
+            <p style="padding-left: 10px;"> Chocolate-Sprinkles &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; $5</p>
+        </div>
+        <div class="cupcake4">
+            <img src="cc4.jpg" style="width: 300px;height: 200px;"/>
+            <p style="padding-left: 10px;"> Rainbow-frosting &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; $5</p>
+        </div>
+        <div class="cupcake5">
+            <img src="cc5.jpg" style="width: 300px;height: 200px;"/>
+            <p style="padding-left: 10px;"> Vanilla-Rose-frosting &emsp;&emsp;&emsp;&emsp;&emsp; $5</p>
+        </div>
+        <div class="cupcake6">
+            <img src="cc6.jpg" style="width: 300px;height: 200px;"/>
+            <p style="padding-left: 10px;"> Apple-frosting &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; $5</p>
+        </div>
+    </div>
+    <div id="tile3">
+        <div class="sweet1">
+            <img src="s1.jpg" style="width: 300px;height: 200px;"/>
+            <p style="padding-left: 10px;"> Mothichur-laddu &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; $5</p>
+        </div>
+        <div class="sweet2">
+            <img src="s2.jpg" style="width: 300px;height: 200px;"/>
+            <p style="padding-left: 10px;"> Kalakandh-bisuits &emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&emsp;&ensp; $5</p>
+        </div>
+        <div class="sweet3">
+            <img src="s3.jpg" style="width: 300px;height: 200px;"/>
+            <p style="padding-left: 10px;"> Ravva-laddu &emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; $5</p>
+        </div>
+        <div class="sweet4">
+            <img src="s4.jpg" style="width: 300px;height: 200px;"/>
+            <p style="padding-left: 10px;"> Jalebi &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; $5</p>
+        </div>
+        <div class="sweet5">
+            <img src="s5.jpg" style="width: 300px;height: 200px;"/>
+            <p style="padding-left: 10px;"> Kaju-Barfi &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp; $5</p>
+        </div>
+        <div class="sweet6">
+            <img src="s6.jpg" style="width: 300px;height: 200px;"/>
+            <p style="padding-left: 10px;"> Gulab-Jamun &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; $5</p>
+        </div>
+    </div>
+    <div id="tile4">
+        <div class="doughnut1">
+            <img src="d1.jpg" style="width: 300px;height: 200px;"/>
+            <p style="padding-left: 10px;"> Chocolate-Doughnut-sprinkles &emsp;&ensp; $5</p>
+        </div>
+        <div class="doughnut2">
+            <img src="d2.jpg" style="width: 300px;height: 200px;"/>
+            <p style="padding-left: 10px;"> FLower-frosting-Doughnuts &emsp;&emsp;&ensp; $5</p>
+        </div>
+        <div class="doughnut3">
+            <img src="d3.jpg" style="width: 300px;height: 200px;"/>
+            <p style="padding-left: 10px;"> Strawberry-Sprinkles &emsp;&emsp;&emsp;&emsp;&emsp; $5</p>
+        </div>
+        <div class="doughnut4">
+            <img src="d4.jpg" style="width: 300px;height: 200px;"/>
+            <p style="padding-left: 10px;"> Sugar-Coating &ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; $5</p>
+        </div>
+        <div class="doughnut5">
+            <img src="d5.jpg" style="width: 300px;height: 200px;"/>
+            <p style="padding-left: 10px;"> Rainbow-frosting &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; $5</p>
+        </div>
+        <div class="doughnut6">
+            <img src="d6.jpg" style="width: 300px;height: 200px;"/>
+            <p style="padding-left: 10px;"> Sugar-coated-jam-filled &emsp;&emsp;&emsp;&emsp; $5</p>
+        </div>
+    </div>
+<script defer src="display.js"></script>
+</body>
+</html>
