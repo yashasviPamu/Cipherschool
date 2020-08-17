@@ -18,6 +18,7 @@ function show()
 }
 function find()
 {
+    // I tried implementing the search but i couldn't do it i got errors.
     var entry=document.getElementById("entries");
     var search=entry.value.toUpperCase();
     if(String(search).equals("CAKE"))
