@@ -25,9 +25,13 @@ class App extends React.Component {
      })
    }
 
-   delete(item){
-    const data = this.state.data.filter(i => i.id !== item.id)
-    this.setState({data})
+  deleteCourse=(id)=>{
+    let newCourse=this.state.courseDetails.filter((course)=>{
+      return course.id!==id;
+    })
+    this.setState({
+      courseDetails:newCourse
+    })
   }
   
 
@@ -35,7 +39,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Navbar heading={this.state.heading}></Navbar>
-        <Display courseDetails={this.state.courseDetails}></Display>
+        <Display courseDetails={this.state.courseDetails}deleteCourse={this.deleteCourse}></Display>
         <AddCourse addCourse ={this.addCourse}></AddCourse>
       </div>
     );
