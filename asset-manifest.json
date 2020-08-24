@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Cipherschool/Assignment3/static/css/main.13506215.chunk.css",
+    "main.js": "/Cipherschool/Assignment3/static/js/main.480fd621.chunk.js",
+    "main.js.map": "/Cipherschool/Assignment3/static/js/main.480fd621.chunk.js.map",
+    "runtime-main.js": "/Cipherschool/Assignment3/static/js/runtime-main.54386bba.js",
+    "runtime-main.js.map": "/Cipherschool/Assignment3/static/js/runtime-main.54386bba.js.map",
+    "static/js/2.25646fce.chunk.js": "/Cipherschool/Assignment3/static/js/2.25646fce.chunk.js",
+    "static/js/2.25646fce.chunk.js.map": "/Cipherschool/Assignment3/static/js/2.25646fce.chunk.js.map",
+    "index.html": "/Cipherschool/Assignment3/index.html",
+    "precache-manifest.a321f6d2217214d3ad37230b2f4861dd.js": "/Cipherschool/Assignment3/precache-manifest.a321f6d2217214d3ad37230b2f4861dd.js",
+    "service-worker.js": "/Cipherschool/Assignment3/service-worker.js",
+    "static/css/main.13506215.chunk.css.map": "/Cipherschool/Assignment3/static/css/main.13506215.chunk.css.map",
+    "static/js/2.25646fce.chunk.js.LICENSE.txt": "/Cipherschool/Assignment3/static/js/2.25646fce.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.54386bba.js",
+    "static/js/2.25646fce.chunk.js",
+    "static/css/main.13506215.chunk.css",
+    "static/js/main.480fd621.chunk.js"
+  ]
+}
