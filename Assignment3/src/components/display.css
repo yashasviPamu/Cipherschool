@@ -1,0 +1,26 @@
+.task-card{
+    background: peru;
+    height: auto;
+    width: 50%;
+    text-align: left;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 25px;
+    /*position: relative;*/ 
+    /* display: inline-block; */
+}
+
+.task-card p i{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.delete{
+    border-radius: 50px;
+    margin-left: 290px;
+    text-align: center;
+    width: 10%;
+}

@@ -1,0 +1,21 @@
+.add-form{
+    width: 400px;
+    height: 200px;
+    background: lightgreen;
+    color: darkred;
+    border: 2px solid black;
+    padding: 20px;
+    margin: auto;
+    border-radius: 50px;
+}
+
+.add-form label{
+    padding: 12px;
+    margin: 15px auto;
+}
+
+.add-form input{
+    margin: 20px;
+    padding: 5px;
+}
+
