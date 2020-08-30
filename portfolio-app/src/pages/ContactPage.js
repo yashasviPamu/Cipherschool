@@ -32,7 +32,7 @@ class ContactPage extends React.Component{
 
         this.setState({
             disabled:true,
-            emailSent:true,
+            emailSent:true, // Backend isn't implemented so I have set the emailSent to true
         })
 
     }
