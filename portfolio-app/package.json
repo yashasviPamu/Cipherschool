@@ -1,5 +1,5 @@
 {
-  
+  "homepage": "http://yashasviPamu.github.io/CipherSchool/portfolio-app",
   "name": "portfolio-app",
   "version": "0.1.0",
   "private": true,
@@ -19,6 +19,8 @@
     "react-spring": "^8.0.27"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
